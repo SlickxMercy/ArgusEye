@@ -8,6 +8,7 @@
 GitHub: Descarga el archivo APK más reciente directamente del [repositorio oficial de Termux en GitHub](https://github.com/termux/termux-app/releases/tag/v0.118.3).
 ### Paso 2: Preparación del Entorno en Termux
 ​Una vez que tengas Termux instalado, abre la aplicación y ejecuta los siguientes comandos en el orden indicado para configurar tu entorno.
+### Paso 3 instalas librerias
 ```bash
 termux-setup-storag
 ```
