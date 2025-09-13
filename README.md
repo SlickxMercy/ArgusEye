@@ -36,7 +36,7 @@ git clone https://github.com/SlickxMercy/ArgusEye
 cd ArgusEye
 ```
 ```bash
-python ArgusEye
+python ArgusEye.py
 ```
 ### Paso 4: Funcionalidades del Menú
 # El script te guiará a través de un menú intuitivo. Aquí tienes un desglose de cada opción:
