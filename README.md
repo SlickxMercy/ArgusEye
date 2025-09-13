@@ -10,3 +10,19 @@ GitHub: Descarga el archivo APK más reciente directamente del [repositorio ofic
 ​Una vez que tengas Termux instalado, abre la aplicación y ejecuta los siguientes comandos en el orden indicado para configurar tu entorno.
 ```bash
 termux-setup-storag
+```
+Cuando se te pida, concede los permisos de almacenamiento a Termux. Esto es necesario para que el script pueda guardar los archivos de resultados.
+
+```bash
+pkg update && pkg upgrade -y
+```
+```bash
+pkg install python git -y
+```
+```bash
+pip install requests colorama loguru passlib lxml pycryptodome urllib3
+```
+
+```bash
+cd storage/downloads/
+```
