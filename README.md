@@ -23,6 +23,10 @@ pkg update && pkg upgrade -y
 pkg install python git -y
 ```
 ```bash
+pkg install libxml2
+pkg install libxslt
+```
+```bash
 pip install requests colorama loguru passlib lxml pycryptodome urllib3
 ```
 
