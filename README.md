@@ -26,3 +26,12 @@ pip install requests colorama loguru passlib lxml pycryptodome urllib3
 ```bash
 cd storage/downloads/
 ```
+```bash
+git clone https://github.com/SlickxMercy/ArgusEye
+```
+```bash
+cd ArgusEye
+```
+```bash
+python ArgusEye
+```
