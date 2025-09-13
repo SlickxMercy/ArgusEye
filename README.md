@@ -1,3 +1,5 @@
+[Mi canal de YouTube](https://youtube.com/@slick_mercy?si=0zzMxe5pp6Ld4uX2)
+
 # Hackeo de cámaras Hikvision en Android usando Termux
 ​Esta guía te proporcionará los pasos detallados para instalar y ejecutar el script en tu dispositivo Android utilizando la aplicación Termux.
 ### ​Paso 1: Instalación de Termux
