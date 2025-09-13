@@ -38,13 +38,23 @@ python ArgusEye
 ```
 ### Paso 4: Funcionalidades del Menú
 # El script te guiará a través de un menú intuitivo. Aquí tienes un desglose de cada opción:
-# ​Scanner (Escaneo de Rango CIDR): Utiliza esta opción para escanear un rango de IP (por ejemplo, 192.168.1.0/24) y encontrar hosts activos con el puerto 80 abierto. Los hosts encontrados se guardarán automáticamente en un archivo llamado host.txt.
-# ​Brute Force (Hikvision): Este módulo realiza un ataque de fuerza bruta a las direcciones IP listadas en host.txt utilizando diccionarios de usuarios (user.txt) y contraseñas (pass.txt) predefinidos.
-# ​CVE-2017-7921 (Hikvision): Explota esta vulnerabilidad de divulgación de información para obtener credenciales de administrador de forma automática.
-# Uniview Disclosure: Intenta explotar una vulnerabilidad en cámaras Uniview para obtener sus credenciales. 
-# CVE-2021-36260 (Hikvision): Este módulo comprueba la existencia de la vulnerabilidad de inyección de comandos. Si una cámara es vulnerable, el script puede instalar una puerta trasera (backdoor) SSH para acceso futuro.
-# ​Exit: Sal del script.
+# ​Scanner (Escaneo de Rango CIDR): 
+Utiliza esta opción para escanear un rango de IP (por ejemplo, 192.168.1.0/24) y encontrar hosts activos con el puerto 80 abierto. Los hosts encontrados se guardarán automáticamente en un archivo llamado host.txt.
+# ​Brute Force (Hikvision):
+Este módulo realiza un ataque de fuerza bruta a las direcciones IP listadas en host.txt utilizando diccionarios de usuarios (user.txt) y contraseñas (pass.txt) predefinidos.
+# ​CVE-2017-7921 (Hikvision): 
+Explota esta vulnerabilidad de divulgación de información para obtener credenciales de administrador de forma automática.
+# Uniview Disclosure: 
+Intenta explotar una vulnerabilidad en cámaras Uniview para obtener sus credenciales. 
+# CVE-2021-36260 (Hikvision): 
+Este módulo comprueba la existencia de la vulnerabilidad de inyección de comandos. Si una cámara es vulnerable, el script puede instalar una puerta trasera (backdoor) SSH para acceso futuro.
+# ​Exit: 
+Sal del script.
 ### Consejos Adicionales
+
+(algunos códigos no estan funcionando correctamente como la vulnerabilidad cve-2021-36260)
+
+
 ​Detener la ejecución: Para detener el script en cualquier momento, presiona Ctrl + C.
 ​Actualización de diccionarios: Asegúrate de que los archivos user.txt y pass.txt contengan listas de usuarios y contraseñas que deseas probar. Puedes editarlos con un editor de texto simple.
 ​Conexión a Internet: Para que el script funcione correctamente, tu dispositivo Android debe tener una conexión a Internet activa.
